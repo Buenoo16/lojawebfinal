@@ -1,0 +1,402 @@
+*{
+    
+    padding: 0;
+    font-size: 20px;
+      font-family: 'Assistant', sans-serif;
+      
+      margin: 0;
+      
+    
+  }
+  .loja-header {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #104A80;
+  width: 100%;
+  box-shadow: 4px 11px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: solid 2px #d4af37;
+  
+}
+
+.logo img {
+  width: 100px; 
+}
+
+.search-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  
+}
+
+.search-box input[type="search"] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #F5F9F8;
+  box-shadow: 4px 11px 10px rgba(0, 0, 0, 0.7);
+  border: solid 2px #d4af37;
+  color: black;
+  
+  
+  
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #F5F9F8;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  margin-left: 10px;
+  color: black;
+  transition: background-color 0.5s ease;
+  box-shadow: 4px 11px 10px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.search-box button:hover {
+background-color: #d4af37; 
+  color: #0F4C83;
+  transform: scale(1.2);
+
+
+
+}
+
+
+.perfil img {
+  width: 50px;
+  margin-left: 15px; 
+  margin-right: 20px;
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #658EC6;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 4px 11px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 18px;
+  background-image: linear-gradient(#104A80, #316BBF #5597ffee)
+  
+  }
+  
+.categoria h2 a {
+
+    color: white;
+    
+    text-decoration: none;
+  text-shadow: 2px 4px 2px black;
+  transition: background-color 0.6s ease;
+  padding: 10px;
+  font-size: 30px;
+  
+  
+  
+
+    }
+    
+    .categoria h2 a:hover{
+       color: #d4af37; 
+  
+    }
+    
+    .img-main{
+    width: 95%;
+        height: 450px;
+        border: solid 1px black;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 40px;
+        background-image: url("https://thumbs.gfycat.com/SoftDearKookaburra-max-1mb.gif");
+    background-size:cover;
+    box-shadow: 8px 5px 35px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    transition: background-image 0.8s ease;
+    background-position: center;
+  
+  
+}
+   
+
+    
+    .img-main:hover{
+    
+    background-image: url("https://i.pinimg.com/originals/66/b8/6a/66b86aef45fcfa6234239e54f4b06c0a.gif");
+    
+    background-size: 42%;
+  background-position:center;
+  border-radius: 15px;
+  
+  
+        }
+  
+    
+    .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  padding: 50px;
+}
+
+
+.item {
+  text-align: center;
+  color: black;
+ background-color: white;
+  height: 575px;
+  width: 320px;
+  margin-bottom: 5px;
+  border-radius: 19px;
+  
+  box-shadow: 8px 5px 35px rgba(0, 0, 0, 0.8);
+ 
+  border: solid 0.5px black;
+ 
+
+}
+
+
+
+
+.item h2 a{
+    color: #104A80;
+    font-size: 24px;
+    text-decoration: none;
+  text-shadow: 1px 1px 1px white;
+  transition: background-color 0.5s ease;
+ 
+  
+}
+.item h2 a:hover{
+   color: #d4af37;
+   text-shadow: 1px 1px 3px black;
+   
+
+
+
+}
+
+.item h2 a, p {
+  margin: 10px 0;
+  
+}
+.item h3{
+    font-size: 23px;
+  font-family: Arial, sans-serif; 
+  text-shadow: 1px 1px 2px gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+.item p{
+    font-size: 15px;
+     font-family: Arial, sans-serif;
+     
+     
+}
+
+
+.comprar-botao {
+
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #104A80;
+  color: #fff;
+  border: solid 2px #d4af37;
+  cursor: pointer;
+  box-shadow: 2px 8px 7px rgba(0, 0, 0, 0.6);
+  transition: background-color 0.7s ease;
+  margin-right: 7px;
+  transform: scale(1);
+  transition: transform 0.6s ease;
+  
+  
+  
+}
+
+.comprar-botao:hover {
+
+  background-color: #d4af37; 
+  color: #0F4C83;
+  transform: scale(1.2);
+ 
+  
+}
+
+.produtos-loja{
+    width: 90%;
+    border-radius: 16px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    border: solid 0.5px black;
+    transform: scale(1);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+    
+    
+    
+}
+.produtos-loja:hover{
+    transform: scale(1.1);
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  
+}
+
+footer .main {
+
+  width: 100%;
+  height: 200px;
+  background-color: #104A80;
+  padding: 20px 10px;
+  border-radius: 3px;
+  padding-right: 35px;
+  border: solid 1px #658ec6;
+}
+
+.footer-links {
+  padding-right: 35px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-company,
+.link-uteis,
+.footer-contact,
+.rede-social {
+  color: white;
+  height: 100%;
+  
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  margin-bottom: 8px;
+}
+
+.main .rede-social img {
+  width: 32px;
+  height: 32px;
+}
+
+footer .inferior {
+  width: 100%;
+  height: 50px;
+  background-color: #104A80;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 44px;
+}
+  h6 a {
+      color:white;
+  }
+  .shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+    padding: 15px;
+  }
+
+.comprar-botao,
+  .shop img {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shop img{
+      filter: drop-shadow(3px 2px 2px rgba(0, 0, 0, 0.9));
+      
+  }
+  .perfil img{
+  filter: drop-shadow(3px 2px 2px rgba(0, 0, 0, 0.9));
+      
+  }
+  .rodape-inferior {
+    background-color: #0f4c83;
+  border: solid 1px #658ec6;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    
+    
+  }
+  
+  .formas-pagamento {
+    margin-top: 20px; 
+    
+  }
+
+  
+  ul.lista-pagamento {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display:inline-block;
+    margin: 0 10px;
+  }
+  
+  .lista-pagamento img {
+    max-height: 40px;
+    max-width: 100px;
+    color: #F5F9F8;
+  }
+  .certificados {
+    
+    text-align: right;
+    margin-left: 1000px; 
+    
+    
+    
+    
+  }
+  
+  .certificados h3 {
+    margin-top: 40px;
+    color: #fff;
+    
+    
+    
+  }
+  
+  .imagens-certificados img {
+    
+    margin-bottom: 10px;
+    max-width: 200px; 
+    
+  }
+  .item a{
+      text-decoration: none;
+  }

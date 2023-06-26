@@ -1,0 +1,302 @@
+*{
+    
+    padding: 0;
+    font-size: 20px;
+      font-family: 'Assistant', sans-serif;
+      color: white;
+      margin: 0;
+      
+    
+  }
+  .loja-header {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #104A80;
+  width: 100%;
+  box-shadow: 4px 11px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: solid 2px #d4af37;
+  margin-bottom: 40px;
+}
+
+.logo img {
+width: 90px;
+height: 90px;
+  
+  
+}
+
+.search-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.search-box input[type="search"] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #F5F9F8;
+  box-shadow: 4px 11px 10px rgba(0, 0, 0, 0.7);
+  border: solid 2px #d4af37;
+  
+  
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #F5F9F8;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  margin-left: 10px;
+  color: black;
+  transition: background-color 0.5s ease;
+  box-shadow: 4px 11px 10px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+.search-box button:hover {
+background-color: #d4af37; 
+  color: #0F4C83;
+  transform: scale(1.2);
+
+
+
+}
+
+
+.perfil img {
+  width: 50px;
+  margin-left: 15px; 
+  margin-right: 20px;
+}
+  .lateral{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+  background-color: #104A80;
+  width: 7%;
+  margin-right: 60px;
+  box-shadow: 4px 11px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border: solid 2px #020100;
+  height: 20%;
+  }
+  .lateral a{
+    text-decoration: none;
+  }
+  .lateral2{
+    border-top: solid 1px;
+  }
+.corpo-site{
+    display: flex;
+    
+   
+}
+.prod-cadastrado h1{
+    color: #104A80;
+    font-size: 35px;
+}
+.prod-cadastrado{
+    margin-top: 30px;
+}
+.info-prod{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #104A80;
+    width: 900px;
+    
+}
+.info-prod p{
+    color: #104A80;
+    margin-top: 10px;
+}
+.prod-editar{
+    display: flex;
+    padding: 2px;
+    width: 900px;
+    margin-top: 10px;
+    border-bottom: solid 1px #104A80;
+    
+
+}
+.prod-editar img{
+    margin-top: 10px;
+    width: 70px;
+    height: 50px;
+    border: solid 2px #104A80;
+    border-radius: 5px;
+}
+ .prod-editar p, h3{
+    color: #104A80;
+    margin-left: 20px;
+ }
+ .produt-text p{
+    font-size: 17px;
+ }
+ .classe-h3{
+    margin-left: 150px;
+    
+   
+ }
+ .preco-h3{
+    margin-left: 240px;
+
+ }
+ .edit-prod {
+    margin-top: 3px;
+  font-size: 15px;
+  background-color: #104A80;
+  color: white;
+ cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  
+  width: 60px;
+  height: 35px;
+}
+.botao-fim{
+    position: static;
+    margin-left: 190px;
+   
+}
+.prod-editar p{
+    
+    width: 80px;
+}
+footer {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  
+  
+}
+
+footer .main {
+
+  width: 100%;
+  height: 200px;
+  background-color: #104A80;
+  padding: 20px 10px;
+  border-radius: 3px;
+  padding-right: 35px;
+  border: solid 1px #658ec6;
+}
+
+.footer-links {
+  padding-right: 35px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-company,
+.link-uteis,
+.footer-contact,
+.rede-social {
+  color: white;
+  height: 100%;
+  
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  margin-bottom: 8px;
+}
+
+.main .rede-social img {
+  width: 32px;
+  height: 32px;
+}
+
+footer .inferior {
+  width: 100%;
+  height: 50px;
+  background-color: #104A80;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 44px;
+}
+  h6 a {
+      color:white;
+  }
+
+
+  .rodape-inferior {
+    background-color: #0f4c83;
+  border: solid 1px #658ec6;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    
+    
+  }
+  
+  .formas-pagamento {
+    margin-top: 20px; 
+    
+  }
+
+  
+  ul.lista-pagamento {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display:inline-block;
+    margin: 0 10px;
+  }
+  
+  .lista-pagamento img {
+    max-height: 40px;
+    max-width: 100px;
+    color: #F5F9F8;
+  }
+  .certificados {
+    
+    text-align: right;
+    margin-left: 1000px; 
+    
+    
+    
+    
+  }
+  
+  .certificados h3 {
+    margin-top: 40px;
+    color: #fff;
+    
+    
+    
+  }
+  
+  .imagens-certificados img {
+    
+    margin-bottom: 10px;
+    max-width: 200px; 
+    
+  }
+   a{
+    text-decoration: none;
+  }
+
+
